@@ -2,23 +2,82 @@
   position: sticky;
   top: 0;
   left: 0;
-  height: 50px;
   width: 100%;
   padding: 0 1%;
+  background-color: #b6a281;
+  color: #b6a281;
   z-index: 1200;
-  color: #b6a28155;
+}
 
+.accordian{
+  margin: 60px auto;
+  width: 600px;
+}
+
+.accordian li{
+  list-style: none;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  border-radius:  8px;
+  background: #e3edf7;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), 6px 6px 10px -1px rgba(255,255,255, 0.7);
+}
+
+.accordian li label{
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+label::before{
+  content: '+';
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+.accordian .content{
+  color: #555;
+  padding: 0 10px;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+
+input[type="checkbox"]:checked +label + .content{
+  max-height: 400px;
+  padding: 10px 10px 20px;
+}
+
+input[type="checkbox"]:checked +label::before{
+  content:"-"
 }
 
 
 .breadcrumbs {
-  padding: 10px;
+  padding: 0;
   font-family: sans-serif;
   text-align: center;
   margin-top: 0;
-  position: relative; /* Add this line to create a new stacking context */
-  z-index: 999; /* Increase the z-index value to make the breadcrumbs appear below the navbar */
-  
+  position: relative;
+  background-color: #999;
+  z-index: 1100;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  max-width: 100%;
 }
 
 .breadcrumbs__items {
@@ -33,7 +92,7 @@
 
 .breadcrumbs__link {
   text-decoration: none;
-  color: #999;
+  color: black;
 }
 
 .breadcrumbs__link:hover {
@@ -41,9 +100,10 @@
 }
 
 .breadcrumbs__link--active {
-  color: black;
+  color: red;
   font-weight: 500;
 }
+
 
 
 

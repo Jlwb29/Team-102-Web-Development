@@ -1,21 +1,15 @@
 header {
   background-color: #b6a28155;
-  padding: 0 1%;
 }
 
 #navbar {
-  max-width: 80%;
-  left: 10%;
-  position: sticky;
+  max-width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
   padding: 10px;
-  margin: 0px;
   border: none;
-  background-color:brown;
-
+  background-color: #b6a281;
 }
 
 #navbar > img {
