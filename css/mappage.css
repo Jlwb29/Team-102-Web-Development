@@ -9,6 +9,14 @@
   z-index: 1200;
 }
 
+.booking-small-container .select{
+  border-radius: 5px;
+}
+
+.booking-small-container #subject{
+  border-radius: 5px;
+}
+
 .booking-card{
   display: flex;
   flex-direction: row;
@@ -54,7 +62,7 @@
   padding: 10px 20px;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -110,6 +118,7 @@ input[type="checkbox"]{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s, padding 0.5s;
+  justify-content: center;
 }
 
 input[type="checkbox"]:checked +label + .content{
