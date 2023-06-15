@@ -9,6 +9,60 @@
   z-index: 1200;
 }
 
+.booking-card{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 50%;
+  margin-top: 0%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  overflow: hidden; /* Prevent the image from extending the container size */
+  justify-content: center;
+}
+
+.booking-small-container{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.booking-small-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+  padding: 10px;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.booking-small-container h3 {
+  justify-content: flex-start;
+  margin-top: 0;
+}
+
+
+.btn-book-now {
+  background-color: #04AA6D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-book-now:hover {
+  background-color: #46a049;
+}
+
+
 .accordian{
   margin: 60px auto;
   width: 600px;
