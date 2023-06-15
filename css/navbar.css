@@ -1,15 +1,22 @@
 header {
-  background-color: #b6a28155;
+  background-color: #fff2dc;
+  padding: 0 1%;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
 }
 
 #navbar {
-  max-width: 100%;
+  max-width: 80%;
+  left: 10%;
+  position: sticky;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  align-content: center;
   padding: 10px;
+  margin: 0px;
   border: none;
-  background-color: #b6a281;
 }
 
 #navbar > img {
@@ -27,7 +34,7 @@ header {
 }
 
 #nav > a {
-  color: #fff;
+  color: black;
   padding: 4px 20px;
   font-size: 20px;
   transition: transform ease-in-out 0.1s;
@@ -43,7 +50,7 @@ header {
 }
 
 #nav-icon > a {
-  color: #f5f3f1;
+  color: #b6a281;
   padding: 0px 5px;
   transition: transform ease-in-out 0.1s;
 }
@@ -55,12 +62,3 @@ header {
 #nav-icon > a:active {
   color: rgb(255, 52, 52);
 }
-
-/* #greyline {
-  position: relative;
-  padding-top: 15px;
-  height: 1px;
-  width: 70%;
-  left: 15%;
-  border-bottom: 1px solid grey;
-} */

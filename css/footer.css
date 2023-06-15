@@ -1,5 +1,6 @@
 footer {
-  background-color: #b6a28155;
+  background-color: #fff2dc;
+  padding-bottom: 1%;
 }
 
 #footer {
@@ -11,7 +12,7 @@ footer {
   align-items: baseline;
   margin: 0px;
   border: none;
-  padding: 15px 0px;
+  padding: 2% 0px;
 }
 
 #footer > div {
@@ -58,4 +59,22 @@ footer {
 
 #subscribe-button:hover {
   transform: scale(1.05);
+}
+
+/* COPYRIGHT */
+
+.greyline {
+  position: relative;
+  max-width: 80%;
+  left: 10%;
+  border: 1px solid rgba(108, 108, 108, 0.5);
+}
+.copyright {
+  position: relative;
+  left: 10%;
+  text-align: center;
+  font-size: 12px;
+  max-width: 80%;
+  line-height: 0;
+  margin-top: 1%;
 }
