@@ -423,6 +423,154 @@ section {
   border: 2px solid #ccc; 
 } 
 
+/* ---------------------------FOOTER.CSS------------------------------------------*/
 
+footer {
+  background-color: #fff2dc;
+  padding-bottom: 1%;
+}
 
+#footer {
+  max-width: 80%;
+  left: 10%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 0px;
+  border: none;
+  padding: 2% 0px;
+}
+
+#footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer > div > h3 {
+  color: #826d4d;
+}
+
+#footer > div > a {
+  color: black;
+  padding: 5px 0em;
+  font-weight: lighter;
+}
+
+.footer-logo > a {
+  color: black;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+#footer ~ p {
+  line-height: 0;
+  font-weight: lighter;
+}
+
+#footer > div > a:hover,
+.footer-logo > .fa-brands:hover {
+  color: brown;
+}
+
+#subscribe-button {
+  background-color: #b6a281;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 0px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+#subscribe-button:hover {
+  transform: scale(1.05);
+}
+
+/* COPYRIGHT */
+
+.greyline {
+  position: relative;
+  max-width: 80%;
+  left: 10%;
+  border: 1px solid rgba(108, 108, 108, 0.5);
+}
+.copyright {
+  position: relative;
+  left: 10%;
+  text-align: center;
+  font-size: 12px;
+  max-width: 80%;
+  line-height: 0;
+  margin-top: 1%;
+}
+
+/*-------------------------------------------Navbar.css------------------------------------*/
+
+header {
+  background-color: #fff2dc;
+  padding: 0 1%;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+#navbar {
+  max-width: 80%;
+  left: 10%;
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  margin: 0px;
+  border: none;
+  color: black;
+}
+
+#navbar > img {
+  align-items: left;
+  width: 2%;
+  padding: none;
+  margin: none;
+}
+
+#navbar > #nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#nav > a {
+  color: black;
+  padding: 4px 20px;
+  font-size: 20px;
+  transition: transform ease-in-out 0.1s;
+}
+
+#nav > a:hover {
+  transform: scale(1.2);
+  color: brown;
+}
+
+#nav > a:active {
+  color: rgb(255, 52, 52);
+}
+
+#nav-icon > a {
+  color: white;
+  padding: 0px 5px;
+  transition: transform ease-in-out 0.1s;
+}
+
+#nav-icon > a:hover {
+  transform: scale(1.5);
+}
+
+#nav-icon > a:active {
+  color: rgb(255, 52, 52);
+}
 
