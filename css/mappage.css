@@ -9,20 +9,21 @@
   z-index: 1200;
 }
 
-.attraction-css{
-  
+
+
+form action {
+  display: none;
 }
 
-input[type=date] {
-  border-radius: 5px;
-}
 
 .booking-small-container .select{
   border-radius: 5px;
+
 }
 
 .booking-small-container #subject{
   border-radius: 5px;
+  height: 50px;
 }
 
 .booking-card{
