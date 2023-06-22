@@ -22,7 +22,8 @@ header {
 
 #navbar > img {
   align-items: left;
-  width: 2%;
+  height: 30px;
+  width: auto;
   padding: none;
   margin: none;
 }
