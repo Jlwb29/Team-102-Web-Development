@@ -1,0 +1,80 @@
+footer {
+  background-color: #fff2dc;
+  padding-bottom: 1%;
+}
+
+#footer {
+  max-width: 80%;
+  left: 10%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 0px;
+  border: none;
+  padding: 2% 0px;
+}
+
+#footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer > div > h3 {
+  color: #826d4d;
+}
+
+#footer > div > a {
+  color: black;
+  padding: 5px 0em;
+  font-weight: lighter;
+}
+
+.footer-logo > div {
+  color: black;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+#footer ~ p {
+  line-height: 0;
+  font-weight: lighter;
+}
+
+#footer > div > a:hover,
+.footer-logo > .fa-brands:hover {
+  color: brown;
+}
+
+#subscribe-button {
+  background-color: #b6a281;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 0px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+#subscribe-button:hover {
+  transform: scale(1.05);
+}
+
+/* COPYRIGHT */
+
+.greyline {
+  position: relative;
+  max-width: 80%;
+  left: 10%;
+  border: 1px solid rgba(108, 108, 108, 0.5);
+}
+.copyright {
+  position: relative;
+  left: 10%;
+  text-align: center;
+  font-size: 12px;
+  max-width: 80%;
+  line-height: 0;
+  margin-top: 1%;
+}
