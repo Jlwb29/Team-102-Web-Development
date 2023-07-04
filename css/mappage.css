@@ -304,6 +304,8 @@ section {
   padding-top: 55px; /* Adjust the padding value to create enough space for the sticky header */
 }
 
+
+
 /* .card:first-child {
   margin-left: auto;
 }
@@ -381,19 +383,66 @@ section {
   height: fit-content; /* Adjust the height as needed */
 }
 
-.popout-image {
+.hotelpopout-image {
   position: absolute;
-  top: 66px;
-  left: 530px;
-  width: 193px;
-  height: 129px; 
+  top: 1321px;
+  left: 1259px;
+  width: 278px;
+  height: 261px; 
   transform: translateX(-50%) scale(1);
   transition: transform 0.3s ease-in-out;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
 }
 
-.popout-image:hover {
+.hotelpopout-image:hover {
   transform: translateX(-50%) scale(1.1);
 }
+
+.rollercoasterpopout-image {
+  position: absolute;
+  top: 1477px;
+  left: 722px;
+  width: 289px;
+  height: 181px; 
+  transform: translateX(-50%) scale(1);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+.rollercoasterpopout-image:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+
+.droptowerpopout-image {
+  position: absolute;
+  top: 1309px;
+  left: 758px;
+  width: 68px;
+  height: 142px; 
+  transform: translateX(-50%) scale(1);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+.droptowerpopout-image:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+
+.circuspopout-image {
+  position: absolute;
+  top: 1410px;
+  left: 1010px;
+  width: 176px;
+  height: 85px; 
+  transform: translateX(-50%) scale(1);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+.circuspopout-image:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+
 
 .container {
   display: flex;

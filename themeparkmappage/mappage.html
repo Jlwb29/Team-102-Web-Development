@@ -29,7 +29,11 @@
       <header class="sticky-header">
         <div id="navbar">
           <!--logo-->
-          <img src="../Index%20page/image/Company Logo.png" href="index.html" alt="logo" />
+          <img
+            src="../Index%20page/image/Company Logo.png"
+            href="index.html"
+            alt="logo"
+          />
           <!-- navigation -->
           <nav id="nav">
             <a href="">Attraction</a>
@@ -111,7 +115,7 @@
             <h3>Visiting Date</h3>
             <form action="/action_page.php">
               <i class="fa-solid fa-calendar-days"></i>
-              <input type="date" id="birthday" name="birthday">
+              <input type="date" id="birthday" name="birthday" />
             </form>
           </div>
           <div class="booking-small-container">
@@ -150,10 +154,40 @@
       <section>
         <div class="image-container">
           <img
-            src="images/theme_park_map.jpg"
+            src="./images/theme_park_map.jpg"
+            usemap="#image_map"
             alt="Background Image"
             id="image-map"
           />
+          <map name="image_map">
+            <!-- Hotel popup -->
+            <div class="hotelpopout-image">
+              <a href="#hotel">
+                <img src="./images/hotelcrop.JPG" alt="Pop-out Image" />
+              </a>
+            </div>
+
+            <!-- Rollercoaster popup -->
+            <div class="rollercoasterpopout-image">
+              <a href="#rollercoaster">
+                <img src="./images/rollercoastercrop.JPG" alt="Pop-out Image" />
+              </a>
+            </div>
+
+            <!-- droptower popup -->
+            <div class="droptowerpopout-image">
+              <a href="#droptower">
+                <img src="./images/droptowercrop.JPG" alt="Pop-out Image" />
+              </a>
+            </div>
+
+            <!-- circus popup -->
+            <div class="circuspopout-image">
+              <a href="#circus">
+                <img src="./images/circuscrop.JPG" alt="Pop-out Image" />
+              </a>
+            </div>
+          </map>
         </div>
 
         <!-- <div class="popout-image">
@@ -166,7 +200,7 @@
       <h1 style="text-align: center">6 Fun Filled Attractions To Explore</h1>
 
       <section>
-        <div class="card">
+        <div class="card" id="rollercoaster">
           <img class="card-image" src="images/rollercoaster.jpg" alt="Avatar" />
           <div class="small-container">
             <h4><b>Roller Coaster</b></h4>
@@ -178,7 +212,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" id="hauntedhouse">
           <img class="card-image" src="images/hauntedhouse.jpg" alt="Avatar" />
           <div class="small-container">
             <h4><b>Haunted House</b></h4>
@@ -190,10 +224,10 @@
           </div>
         </div>
 
-        <div class="card">
-          <img class="card-image" src="images/rollercoaster.jpg" alt="Avatar" />
+        <div class="card" id="droptower">
+          <img class="card-image" src="images/droptower.jpg" alt="Avatar" />
           <div class="small-container">
-            <h4><b>UpwardsRollarCoaster</b></h4>
+            <h4><b>DropTower</b></h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               vel molestie lectus, nec sagittis libero. Donec feugiat neque
@@ -206,7 +240,7 @@
       <br />
 
       <section>
-        <div class="card">
+        <div class="card" id="circus">
           <img class="card-image" src="images/circus.jpg" alt="Avatar" />
           <div class="small-container">
             <h4><b>Circus</b></h4>
@@ -218,7 +252,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" id="hotel">
           <img class="card-image" src="images/hotel.jpg" alt="Avatar" />
           <div class="small-container">
             <h4><b>Hotel</b></h4>
@@ -230,7 +264,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card" id="giftshop">
           <img class="card-image" src="images/giftshop.jpg" alt="Avatar" />
           <div class="small-container">
             <h4><b>Gift Shop</b></h4>
