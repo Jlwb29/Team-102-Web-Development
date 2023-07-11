@@ -1,31 +1,16 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>proj team 102</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      media="screen and (min-width:768px)"
-      href="Index%20page/css/navbar.css"
-    />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width:768px) and (min-width:600px)"
-      href="Index%2520page/css/mobilenavbar.css"
-    />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width:600px)"
-      href="Index%20page/css/mobilenavbar.css"
-    />
-    <link rel="stylesheet" href="Index%20page/css/footer.css" />
-    <link rel="stylesheet" href="Index%20page/css/standard-web-settings.css" />
-    <link rel="stylesheet" href="Index%20page/css/index.css" />
-    <link rel="stylesheet" href="Index%20page/css/slider.css" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/standard-web-settings.css">
+    <link rel="stylesheet" href="css/index.css">
     <script
       src="https://kit.fontawesome.com/d1a90cb11b.js"
       crossorigin="anonymous"
@@ -33,59 +18,80 @@
   </head>
 
   <!-- BODY -->
-  <body>
-    <!-- HEAEDER -->
+  <body id="top">
+    <!-- NAV BAR -->
     <header>
       <div id="navbar">
         <!--logo-->
         <div class="logo">
           <a href="index.html"
-            ><img src="Index%20page/image/Company Logo.png" alt="logo"
-          /></a>
+            ><img src="image/Company-Logo.png" alt="logo"
+         ></a>
         </div>
         <!-- navigation -->
         <nav id="nav">
           <a href="index.html">Home</a>
           <a href="">Promotions</a>
-          <a href="themeparkmappage/mappage.html">Park Map</a>
-          <a href="ContactUs/contactus.html">Contact Us</a>
+          <a href="mappage.html">Park Map</a>
+          <a href="contactus.html">Contact Us</a>
         </nav>
         <!-- icons -->
         <div style="margin-right: 50px">
-          <div class="fas fa-lock icon nav-icon" href="" alt="log in"></div>
-          <div class="fas fa-search icon nav-icon" href="" alt="search"></div>
-          <div
-            class="fas fa-cart-shopping icon nav-icon"
-            href=""
-            alt="shopping cart"
-          ></div>
+          <a href=""> <div class="fas fa-lock icon nav-icon"></div></a>
+          <a href=""> <div class="fas fa-search icon nav-icon"></div></a>
+          <a href=""> <div class="fas fa-cart-shopping icon nav-icon"></div></a>
         </div>
       </div>
     </header>
+
+    <!-- BUTTON RETURNING TO TOP-->
+    <a href="#top" class="return-top">&#8593;</a>
+
     <!-- SLIDER -->
     <div id="slider-container">
       <div class="slider-container">
         <div class="slides">
-          <input type="radio" name="common" id="btn1" checked />
-          <input type="radio" name="common" id="btn2" />
-          <input type="radio" name="common" id="btn3" />
-          <input type="radio" name="common" id="btn4" />
-          <input type="radio" name="common" id="btn5" />
+          <input type="radio" name="common" id="btn1" checked>
+          <input type="radio" name="common" id="btn2">
+          <input type="radio" name="common" id="btn3">
+          <input type="radio" name="common" id="btn4">
+          <input type="radio" name="common" id="btn5">
 
           <div class="slider-image first">
-            <img src="Index%20page/image/photo_3_2023-05-26_15-01-50.jpg" alt="photo 1" />
+            <img src="image/photo_3_2023-05-26_15-01-50.jpg" alt="photo 1">
+            <div class="slider-text">
+              <b>Unleash the Adventure</b> <br>Limited-Time Promotion at
+              RolleClarr!<br>
+              <div class="find-out-more">
+                <a href="">Find Out More! &#8594;</a>
+              </div>
+            </div>
           </div>
           <div class="slider-image">
-            <img src="Index%20page/image/photo_2_2023-05-26_15-01-50.jpg" alt="photo 2" />
+            <img src="image/resort.jpg" alt="photo 2">
+            <div class="higher-slider-text">
+              <b>Escape to Paradise</b><br>
+              Unwind with Exclusive Offers at <br>Seaside Haven Resort!<br>
+              <div class="find-out-more">
+                <a href="">Find Out More! &#8594;</a>
+              </div>
+            </div>
           </div>
           <div class="slider-image">
-            <img src="Index%20page/image/photo_1_2023-05-26_15-01-50.jpg" alt="photo 3" />
+            <img src="image/carnival.jpg" alt="photo 3">
+            <div class="brighter-slider-text black-gradient">
+              <b>Unleash Your Inner Child</b><br>
+              Unbeatable Carnival Promotions for <br>the Ultimate Fun!<br>
+              <div class="brighter-find-out-more">
+                <a href="">Find Out More! &#8594;</a>
+              </div>
+            </div>
           </div>
           <div class="slider-image">
-            <img src="Index%20page/image/photo_4_2023-05-26_15-01-50.jpg" alt="photo 4" />
+            <img src="image/photo_4_2023-05-26_15-01-50.jpg" alt="photo 4">
           </div>
           <div class="slider-image">
-            <img src="Index%20page/image/photo_5_2023-05-26_15-01-50.jpg" alt="photo 5" />
+            <img src="image/photo_5_2023-05-26_15-01-50.jpg" alt="photo 5">
           </div>
         </div>
         <div class="navigator">
@@ -121,15 +127,24 @@
 
     <!-- START OF SECTION-->
     <div class="attraction-section">
-      <div class="fixed-background">
+      <div class="attraction-bar">
+        <div class="fixed-background"></div>
         <div class="attraction-container">
           <a class="image-container" href="">
-            <h3>Attraction 1</h3>
+            <img src="image/hauntedhouse.jpg" alt="haunted house">
+            <h3 class="text">Haunted House</h3>
           </a>
-          <a class="image-container" href=""><h3>Attraction 2</h3></a>
-          <a class="image-container" href=""><h3>Attraction 3</h3></a>
+          <a class="image-container" href="">
+            <img src="image/rollercoaster.jpg" alt="roller coaster">
+            <h3 class="text">Rollercoaster</h3></a
+          >
+          <a class="image-container" href="">
+            <img src="image/circus.jpg" alt="circus">
+            <h3 class="text">Circus</h3></a
+          >
         </div>
       </div>
+      <div class="arrow-down">&#8595;</div>
       <div class="discover">
         <div class="discover-container">
           <div class="discover-desc">
@@ -142,11 +157,11 @@
             </div>
             <a class="btn-discover" href="">Discover</a>
           </div>
-          <img src="Index%20page/image/accomodation.jpg" />
+          <img src="image/accomodation.jpg" alt="accomodation">
         </div>
 
         <div class="discover-container">
-          <img src="Index%20page/image/attraction.jpg" />
+          <img src="image/attraction.jpg" alt="attraction">
           <div class="discover-desc">
             <div>
               <p class="discover-name"><b>Attractions</b></p>
@@ -172,11 +187,11 @@
             </div>
             <a class="btn-discover" href="d3.html">Discover</a>
           </div>
-          <img src="Index%20page/image/shops.jpg" />
+          <img src="image/shops.jpg" alt="shops">
         </div>
 
         <div class="discover-container">
-          <img src="Index%20page/image/restaurant.jpg" />
+          <img src="image/restaurant.jpg" alt="restaurant">
           <div class="discover-desc">
             <div>
               <p class="discover-name"><b>Restaurants</b></p>
@@ -239,10 +254,10 @@
           <button id="subscribe-button">SUBSCRIBE WITH US</button>
           <h3>Follow Us On</h3>
           <div class="footer-logo">
-            <div class="fa-brands fa-instagram" href="" alt="instagram"></div>
-            <div class="fa-brands fa-twitter" href="" alt="twitter"></div>
-            <div class="fa-brands fa-youtube" href="" alt="youtube"></div>
-            <div class="fa-brands fa-linkedin" href="" alt="linkedIn"></div>
+            <a href=""><div class="fa-brands fa-instagram"></div></a>
+            <a href=""><div class="fa-brands fa-twitter"></div></a>
+            <a href=""><div class="fa-brands fa-youtube"></div></a>
+            <a href=""><div class="fa-brands fa-linkedin"></div></a>
           </div>
         </div>
       </div>

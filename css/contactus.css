@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+.background-fill {
+  background-color: #fff2dc57;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+}
+/* About Us Section */
+.title {
+  text-align: center;
+  color: #b6a281;
+  margin-top: 5%;
+  font-size: 24px;
+}
+
+.about {
+  font-size: 20px;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 3%;
+  padding-bottom: 2.5%;
+}
+
+/* .about > h2 {
+  font-family: "Times New Roman", Times, serif;
+} */
+
+.about > p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.box {
+  background-color: white;
+  border-radius: 10px;
+  text-align: left;
+  color: black;
+  font-size: 25px;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.box > img {
+  margin-left: 0%;
+}
+
+.description {
+  text-align: left;
+  margin-left: 13%;
+  margin-right: 9%;
+  margin-top: 10%;
+}
+
+/* <------------------------------------------------> */
+/* Contact Us Section */
+
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.container-contact {
+  color: #b6a281;
+  width: 100%;
+  margin-top: 3%;
+  font-size: 24px;
+}
+
+.container-contact hr {
+  width: 30%;
+  opacity: 0.5;
+}
+
+.container-contact > h1 {
+  text-align: center;
+  /* margin-left: 11.5%; */
+}
+
+.container-text {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.column > h2 {
+  margin-left: 22%;
+}
+
+.column > h3 {
+  margin-top: 10%;
+  color: #826d4d;
+}
+
+.column > h4 {
+  font-size: 20px;
+  color: #b6a281;
+}
+
+.column > p {
+  margin-left: 22%;
+}
+
+.column > address {
+  margin-left: 22%;
+}
+
+.column > form {
+  margin-right: 22%;
+}
+
+.column > form > .column img {
+  animation: colorize 2s cubic-bezier(0, 0, 0.78, 0.36) 1;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  display: block;
+  margin: 1em auto;
+  max-width: 75%;
+}
+.country {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 1% 5px 1% 0px;
+}
+.number {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+  padding: 1% 1% 1% 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.comment {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}

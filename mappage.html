@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <title>proj team 102</title>
+    <meta name="description" content="" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="css/navbar.css" >
+    <link rel="stylesheet" href="css/footer.css" >
+    <link rel="stylesheet" href="css/standard-web-settings.css" >
+    <!-- <link rel="stylesheet" href="css/index.css" /> -->
+    <link rel="stylesheet" href="css/mappage.css" >
+    <script
+      src="https://kit.fontawesome.com/d1a90cb11b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!-- HEAEDER -->
+  <!-- insert entire <header></header> section ABOVE <body></body> tag-->
+
+  <!-- <div id="greyline"></div> -->
+  <!-- navbar ends here-->
+
+  <!-- BODY -->
+  <body id="top">
+    <!-- HEAEDER -->
+    <header>
+      <div id="navbar">
+        <!--logo-->
+        <div class="logo">
+          <a href="index.html"
+            ><img src="image/Company-Logo.png" alt="logo"
+          ></a>
+        </div>
+        <!-- navigation -->
+        <nav id="nav">
+          <a href="index.html">Home</a>
+          <a href="">Promotions</a>
+          <a href="mappage.html">Park Map</a>
+          <a href="contactus.html">Contact Us</a>
+        </nav>
+        <!-- icons -->
+        <div style="margin-right: 50px">
+          <div class="fas fa-lock icon nav-icon"></div>
+          <div class="fas fa-search icon nav-icon"></div>
+          <div class="fas fa-cart-shopping icon nav-icon"></div>
+        </div>
+      </div>
+    </header>
+    <!-- BUTTON RETURNING TO TOP-->
+    <a href="#top" class="return-top">&#8593;</a>
+
+    <div class="banner">
+      <img src="image/Banner.jpg" alt="Banner Image" >
+      <div class="banner-content">
+        <h1 style="font-size: xx-large">Find Your Way Around Rolleclarr</h1>
+        <p style="font-size: x-small">
+          Discover Many Fun Filled Attractions And More. Don't Miss Out!
+        </p>
+        <a href="#image-map" class="button button1">View Map</a>
+      </div>
+    </div>
+
+    <section>
+      <div class="booking-card">
+        <div class="booking-small-container">
+          <h3>Total Pax</h3>
+          <form name="form1">
+            <select id="pax">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+            </select>
+          </form>
+        </div>
+        <div class="booking-small-container">
+          <h3>Attractions</h3>
+          <form name="form1">
+            <select id="attractions">
+              <option>Rollercoaster</option>
+              <option>Hauntedhouse</option>
+              <option>DropTower</option>
+              <option>Circus</option>
+              <option>Hotel</option>
+            </select>
+          </form>
+        </div>
+        <div class="booking-small-container">
+          <h3>Visiting Date</h3>
+          <form action="/action_page.php">
+            <input type="date" >
+          </form>
+        </div>
+        <div class="booking-small-container">
+          <button class="btn-book-now">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="park-description-card-container">
+        <div class="park-description-card">
+          <h5>
+              Welcome to Rolleclarr, where dreams become reality! Feel the rush on
+              our exhilarating roller coasters as they twist and turn through the
+              air providing an adrenaline-pumping experience.<br><br>If you
+              prefer a more relaxed pace, indulge in charming carousels or take
+              leisurely walks through stunning gardens, meticulously crafted to
+              captivate your senses.<br><br>Rolleclarr invites you to embark
+              on an incredible adventure, where every moment is filled with pure
+              joy and endless possibilities.
+          </h5>
+          
+        </div>
+        <div class="park-time-card">
+          <br >
+          <img src="image/Company-Logo.png" alt="Logo" style="width: 20%">
+          <p><strong>Operating Hours</strong></p>
+          <p style="font-size: small">Monday - Friday: 9 AM - 6 PM</p>
+          <p style="font-size: small">Saturday - Sunday: 11 AM - 9 PM</p>
+        </div>
+      </div>
+    </section>
+    <h1 style="text-align: center">Interactive Map</h1>
+    <div id="image-map" style="margin-top: -10%; position: absolute"></div>
+    <section>
+      <div class="image-container">
+        <img
+          src="image/theme_park_map.jpg"
+          usemap="#image_map"
+          alt="Background Image"
+        >
+        <map name="image_map">
+          <!-- Hotel popup -->
+          <div class="hotelpopout-image">
+            <a href="#section-2">
+              <img src="image/hotelcrop.JPG" alt="Pop-out Image" >
+            </a>
+          </div>
+
+          <!-- Rollercoaster popup -->
+          <div class="rollercoasterpopout-image">
+            <a href="#section-1">
+              <img src="image/rollercoastercrop.JPG" alt="Pop-out Image" >
+            </a>
+          </div>
+
+          <!-- droptower popup -->
+          <div class="droptowerpopout-image">
+            <a href="#section-1">
+              <img src="image/droptowercrop.JPG" alt="Pop-out Image" >
+            </a>
+          </div>
+
+          <!-- circus popup -->
+          <div class="circuspopout-image">
+            <a href="#section-2">
+              <img src="image/circuscrop.JPG" alt="Pop-out Image" >
+            </a>
+          </div>
+        </map>
+      </div>
+
+      <!-- <div class="popout-image">
+          <a href="#text">
+            <img src="image/crop.jpg" alt="Pop-out Image" />
+          </a>
+        </div> -->
+    </section>
+    <div id="section-1" style="margin-top: -10%; position: absolute"></div>
+    <h1 style="text-align: center">6 Fun Filled Attractions To Explore</h1>
+
+    <section>
+      <div class="card" id="rollercoaster">
+        <img class="card-image" src="image/rollercoaster.jpg" alt="Avatar" >
+        <div class="small-container">
+          <h4><b>Roller Coaster</b></h4>
+          <p>
+            Prepare for an adrenaline-fueled adventure as our thrilling roller
+            coaster attraction takes you on a heart-pounding journey of twists,
+            turns, and gravity-defying thrills.
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="hauntedhouse">
+        <img class="card-image" src="image/hauntedhouse.jpg" alt="Avatar" >
+        <div class="small-container">
+          <h4><b>Haunted House</b></h4>
+          <p>
+            Enter if you dare into the chilling world of our haunted house
+            attraction, where spine-tingling scares and ghostly encounters await
+            at every dark corner.
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="droptower">
+        <img class="card-image" src="image/droptower.jpg" alt="Avatar" >
+        <div class="small-container">
+          <h4><b>DropTower</b></h4>
+          <p>
+            Experience the exhilarating sensation of freefall as you ascend to
+            towering heights, only to plummet at breathtaking speeds, on our
+            gravity-defying drop tower attraction.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div id="section-2" style="margin-top: -10%; position: absolute"></div>
+    <br >
+
+    <section>
+      <div class="card" id="circus">
+        <img class="card-image" src="image/circus.jpg" alt="Avatar" >
+        <div class="small-container">
+          <h4><b>Circus</b></h4>
+          <p>
+            Step into the magical realm of our circus attraction, where
+            awe-inspiring performances, mesmerizing acrobatics, and the vibrant
+            atmosphere of the big top will transport you to a world of wonder
+            and joy.
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="hotel">
+        <img class="card-image" src="image/hotel.jpg" alt="Avatar" >
+        <div class="small-container">
+          <h4><b>Hotel</b></h4>
+          <p>
+            Welcome to our luxurious hotel, where comfort meets sophistication,
+            offering a haven of relaxation, impeccable service, and breathtaking
+            views, ensuring an unforgettable stay for every guest.
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="giftshop">
+        <img class="card-image" src="image/giftshop.jpg" alt="Avatar" >
+        <div class="small-container">
+          <h4><b>Gift Shop</b></h4>
+          <p>
+            Explore our charming gift shop, a treasure trove of delightful
+            souvenirs, unique mementos, and whimsical trinkets, where you can
+            find the perfect keepsake to commemorate your unforgettable
+            adventure.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <h1 style="text-align: center">FAQ</h1>
+
+    <section>
+      <div class="accordian">
+        <ul>
+          <li>
+            <input type="checkbox" name="accordion" id="accordion1" >
+            <label for="accordion1">What are the park's opening hours?</label>
+            <div class="content">
+              Rolleclarr is open from 9:00 AM to 6:00 PM on weekdays and 11:00
+              AM to 9:00 PM on weekends, allowing you ample time to enjoy the
+              park's attractions and entertainment.
+            </div>
+          </li>
+
+          <li>
+            <input type="checkbox" name="accordion" id="accordion2" >
+            <label for="accordion2"
+              >Are there any age or height restrictions for the rides?</label
+            >
+            <div class="content">
+              Yes, certain rides have height restrictions for safety reasons and
+              age restrictions may apply to specific attractions. You may
+              consult our friendly staff for detailed information.
+            </div>
+          </li>
+
+          <li>
+            <input type="checkbox" name="accordion" id="accordion3" >
+            <label for="accordion3"
+              >Is there parking available and is it free?</label
+            >
+            <div class="content">
+              Yes, we provide ample parking space for guests and parking is free
+              of charge for the duration of your visit to Rolleclarr.
+            </div>
+          </li>
+
+          <li>
+            <input type="checkbox" name="accordion" id="accordion4" >
+            <label for="accordion4"
+              >Can I purchase tickets online in advance?</label
+            >
+            <div class="content">
+              Yes, we highly recommend purchasing tickets online in advance to
+              secure your spot and avoid long queues. Simply visit our website
+              and follow the easy ticket purchasing process for a seamless entry
+              into Rolleclarr.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+
+  <footer>
+    <div id="footer">
+      <div>
+        <h3>Press Room</h3>
+        <a href="">Press Release</a>
+      </div>
+      <div>
+        <h3>Vistor Information</h3>
+        <a href="">Getting Here</a>
+        <a href="">Contact Us</a>
+        <a href="">Guide</a>
+        <a href="">Frequently Asked Questions</a>
+      </div>
+      <div>
+        <h3>About Rolleclarr</h3>
+        <a href="">About Us</a>
+        <a href="">Press Release</a>
+        <a href="">Careers</a>
+        <a href="">Sitemap</a>
+      </div>
+      <div>
+        <h3>Stay Updated</h3>
+        <em>Exlusive updates from Rolleclarr</em>
+        <button id="subscribe-button">SUBSCRIBE WITH US</button>
+        <h3>Follow Us On</h3>
+        <div class="footer-logo">
+          <div class="fa-brands fa-instagram"></div>
+          <div class="fa-brands fa-twitter" ></div>
+          <div class="fa-brands fa-youtube" ></div>
+          <div class="fa-brands fa-linkedin"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="greyline"></div>
+    <p class="copyright">Copyright &copy; Rolleclarr. All Rights Reserved.</p>
+  </footer>
+</html>
