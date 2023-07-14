@@ -1,15 +1,14 @@
-.booking-small-container #pax {
-  border-radius: 2px;
-  height: 21px;
-  width: 116px;
-  text-align: left;
+form action {
+  display: none;
 }
 
-.booking-small-container #attractions {
-  border-radius: 2px;
-  height: 21px;
-  width: 116px;
-  text-align: left;
+.booking-small-container .select {
+  border-radius: 5px;
+}
+
+.booking-small-container #subject {
+  border-radius: 5px;
+  height: 50px;
 }
 
 .booking-card {
@@ -35,7 +34,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
   width: 100%;
   padding: 10px;
   margin-right: 2%;
@@ -66,7 +64,7 @@
 
 .accordian {
   margin: 60px auto;
-  width: 900px;
+  width: 600px;
   margin-top: 0;
 }
 
@@ -126,7 +124,7 @@ input[type="checkbox"]:checked + label::before {
   text-align: center;
   overflow: hidden;
   height: 60vh;
-  margin-top: 5%; /* Adjust this value as needed */
+  margin-top: -1.1%; /* Adjust this value as needed */
 }
 
 .banner img {
@@ -226,9 +224,16 @@ section {
   margin-bottom: 0%;
 }
 
-/* #image-map {
-  padding-top: 55px; 
-} */
+#image-map {
+  padding-top: 55px; /* Adjust the padding value to create enough space for the sticky header */
+}
+
+.section-title {
+  text-align: center;
+  width: 100%;
+  padding-top: 3%;
+  color: #826d4d;
+}
 
 .park-description-card-container {
   display: flex;
@@ -242,8 +247,6 @@ section {
 .park-description-card {
   text-align: left;
   justify-content: center;
-  width: fit-content;
-  height: fit-content;
   margin-right: 5%;
   align-items: flex-start;
 }
@@ -254,9 +257,9 @@ section {
 
 .park-time-card {
   margin-top: 0%;
-  width: fit-content;
+  min-width: fit-content;
   height: fit-content;
-  text-align: center;
+  text-align: left;
   align-self: flex-start;
 }
 
